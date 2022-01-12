@@ -1,0 +1,9 @@
+<?php
+$eleve = ['nom' => 'Doe', 
+'prenom' => 'Marc', 
+'notes' => [10, 20, 15]
+];
+$eleve[] = 'CM2-A';
+$eleve['notes'][3] = 16;
+print_r ($eleve);
+?>
